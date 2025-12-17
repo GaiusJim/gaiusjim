@@ -1,0 +1,7 @@
+@echo off
+echo Installing the tools... (This might take a minute)
+call npm install
+echo.
+echo Starting the website...
+call npm run dev:client
+pause
